@@ -208,6 +208,7 @@ section { padding-bottom: 104px; scroll-margin-top: 48px; }
 .paper-authors { margin-top: 12px; color: var(--muted); font-size: 15px; }
 .paper-authors strong { color: var(--ink); font-weight: 600; }
 .paper-summary { margin-top: 14px; }
+.paper + .paper {margin-top: 2.5rem; }
 
 .pipeline { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 32px; }
 .pipeline li { position: relative; display: flex; flex-direction: column; gap: 2px; padding: 22px 14px 0 0; border-top: 1px solid var(--line); }
@@ -338,3 +339,4 @@ section { padding-bottom: 104px; scroll-margin-top: 48px; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; }
 }
+
